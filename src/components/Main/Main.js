@@ -4,6 +4,8 @@ import Nav from './Nav'
 import NewDepositBtn from './NewDepositsBtn'
 import Deposits from './Deposits/Deposits'
 
+import depositData from '../../DepositData.json'
+
 
 
 const Container = styled.div`
@@ -22,8 +24,8 @@ const Main = () => {
         <Container>
             <Nav />
             <NewDepositBtn />
-            <Deposits title="Deposits" count={2} data={} /> 
-            <Deposits title="Deposits" count={2} data={} />
+            <Deposits title="Active Deposits" count={2} data={depositData.active} />
+            <Deposits title="Closed Deposits" count={8} data={depositData.closed} />
 
         </Container>
 
