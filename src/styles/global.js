@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
 }
 
-body {
+  body {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.textColor};
     height: 100vh;
@@ -15,5 +15,5 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     transition: all 0.25s linear;
-}
+  }
 `

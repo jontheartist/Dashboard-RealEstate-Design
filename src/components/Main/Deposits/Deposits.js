@@ -2,9 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import SortingBar from './SortingBar'
 import Deposit from './Deposit'
-import AllDepositsBtn from '../Deposits/AllDepositsBtn'
+import AllDepositsBtn from '../AllDepositsBtn'
 
 const Container = styled.div`
+
 `
 
 const Title = styled.h1`

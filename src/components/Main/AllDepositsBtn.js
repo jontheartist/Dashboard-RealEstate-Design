@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
 const Container = styled.div`
     display: flex;
     justify-content: center;
@@ -22,18 +21,17 @@ const Button = styled.a`
     justify-content: center;
     cursor: pointer;
     transition: all ease-in-out 300ms;
+
     &:hover {
         box-shadow: 0px 0px 7px rgba(128,74,216,0.6);
     }
+
 `
 
-
-const AllDepositsBtn = ({ title }) => {
-    return (
-        <Container>
-            <Button>All {title}</Button>
-        </Container>
-    )
-}
+const AllDepositsBtn = ({ title }) => (
+    <Container>
+        <Button>All {title}</Button>
+    </Container>
+)
 
 export default AllDepositsBtn

@@ -25,7 +25,7 @@ const Nav = () => {
     return (
         <Container>
             <MessageIcon className="iconify" data-inline="false" data-icon="mdi-light:email"></MessageIcon>
-            <ProfileImg src={require('../../assets/images/profilelg.png')} />
+            <ProfileImg src={require('../../assets/images/jon.jpg')} />
         </Container>
     )
 }
