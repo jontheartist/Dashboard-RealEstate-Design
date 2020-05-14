@@ -70,13 +70,9 @@ const StatusIndicator = styled.div`
     right: 7rem;
 `
 
-
-
-
-
-
 const Deposit = ({ data }) => {
     const { property, moveInDate, rent, deposit, status } = data;
+
     return (
         <Container>
             <Property>
@@ -85,7 +81,6 @@ const Deposit = ({ data }) => {
                     <PropertyStreet>{property.address.street}</PropertyStreet>
                     <Subtitle>{property.address.city} {property.address.state}</Subtitle>
                 </PropertyText>
-
             </Property>
             <MoveInDate>{moveInDate}</MoveInDate>
             <Rent>${rent}</Rent>

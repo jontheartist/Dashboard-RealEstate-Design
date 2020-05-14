@@ -35,16 +35,15 @@ const Deposit = styled(Text)`
 const Status = styled(Text)`
     
 `
+
 const SortingBar = () => {
     return (
         <Container>
-            <Property> Property</Property>
+            <Property>Property</Property>
             <MoveInDate>Move In Date</MoveInDate>
             <Rent>Rent</Rent>
             <Deposit>Deposit</Deposit>
             <Status>Status</Status>
-
-
         </Container>
     )
 }
