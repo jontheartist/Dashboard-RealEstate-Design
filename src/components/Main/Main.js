@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Nav from './Nav'
-import NewDepositBtn from './NewDepositsBtn'
+import NewDepositsBtn from './NewDepositsBtn'
 import Deposits from './Deposits/Deposits'
 
 import depositData from '../../DepositData.json'
@@ -23,7 +23,7 @@ const Main = () => {
 
         <Container>
             <Nav />
-            <NewDepositBtn />
+            <NewDepositsBtn />
             <Deposits title="Active Deposits" count={2} data={depositData.active} />
             <Deposits title="Closed Deposits" count={8} data={depositData.closed} />
 
