@@ -57,13 +57,30 @@ const Rent = styled(Text)`
     width: 10%;
 `
 
+const DepositWrapper = styled.div`
+    width: 15%;
+`
+const Status = styled.div`
+    display: flex;
+    align-items: center;
+`
+const StatusIndicator = styled.div`
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: ${props => props.color};
+    margin-left: 1rem;
+    position: absolute;
+    right: 7rem;
+`
+
 
 
 
 
 
 const Deposit = ({ data }) => {
-    const { property, movieDate, rent, deposit, status } = data;
+    const { property, moveInDate, rent, deposit, status } = data;
     return (
         <Container>
             deposit
